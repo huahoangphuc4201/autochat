@@ -12,66 +12,36 @@
   --button-hover-color: #999999;
   --disable-color: #bcc0c4;
   --enable-color: #0084ff;
-
-  --text-color-light: black;
-  --text-bg-light: white;
-  --bg-light: #f0f2f5;
-  --element-color-light: white;
-  --edit-panel-color-light: #fff4f4;
-  --bg-input-color-light: white;
-  --bg-chat-box-light: white;
-  --chat-box-friend-name-text-color-light: #050505;
-  --chat-box-text-color-light: #65676b;
-  --bg-friend-message-light: #e4e6eb;
-  --friend-message-text-color-light: #050505;
-  --bg-button-light: #e4e6eb;
-
-  --text-color-dark: #e7e7e7;
-  --text-bg-dark: #2f2f2f;
-  --bg-dark: #121212;
-  --element-color-dark: #252525;
-  --edit-panel-color-dark: #252525;
-  --bg-input-color-dark: #2f2f2f;
-  --bg-chat-box-dark: #242526;
-  --chat-box-friend-name-text-color-dark: #e4e6eb;
-  --chat-box-text-color-dark: #b0b3b8;
-  --bg-friend-message-dark: #3e4042;
-  --friend-message-text-color-dark: #e4e6eb;
-  --bg-button-dark: #3a3b3c;
 }
 
 :root[data-theme="light"] {
-  --text-color: var(--text-color-light);
-  --text-bg: var(--bg-light);
-  --bg: var(--bg-light);
-  --element-color: var(--element-color-light);
-  --edit-panel-color: var(--edit-panel-color-light);
-  --bg-input-color: var(--bg-input-color-light);
-  --bg-chat-box: var(--bg-chat-box-light);
-  --chat-box-friend-name-text-color: var(
-    --chat-box-friend-name-text-color-light
-  );
-  --chat-box-text-color: var(--chat-box-text-color-light);
-  --bg-friend-message: var(--bg-friend-message-light);
-  --friend-message-text-color: var(--friend-message-text-color-light);
-  --bg-button: var(--bg-button-light);
+  --text-color: black;
+  --text-bg: white;
+  --bg: #f0f2f5;
+  --element-color: white;
+  --edit-panel-color: #fff4f4;
+  --bg-input-color: white;
+  --bg-chat-box: white;
+  --chat-box-friend-name-text-color: #050505;
+  --chat-box-text-color: #65676b;
+  --bg-friend-message: #e4e6eb;
+  --friend-message-text-color: #050505;
+  --bg-button: #e4e6eb;
 }
 
 :root[data-theme="dark"] {
-  --text-color: var(--text-color-dark);
-  --text-bg: var(--bg-dark);
-  --bg: var(--bg-dark);
-  --element-color: var(--element-color-dark);
-  --edit-panel-color: var(--edit-panel-color-dark);
-  --bg-input-color: var(--bg-input-color-dark);
-  --bg-chat-box: var(--bg-chat-box-dark);
-  --chat-box-friend-name-text-color: var(
-    --chat-box-friend-name-text-color-dark
-  );
-  --chat-box-text-color: var(--chat-box-text-color-dark);
-  --bg-friend-message: var(--bg-friend-message-dark);
-  --friend-message-text-color: var(--friend-message-text-color-dark);
-  --bg-button: var(--bg-button-dark);
+  --text-color: #e7e7e7;
+  --text-bg: #2f2f2f;
+  --bg: #121212;
+  --element-color: #252525;
+  --edit-panel-color: #252525;
+  --bg-input-color: #2f2f2f;
+  --bg-chat-box: #242526;
+  --chat-box-friend-name-text-color: #e4e6eb;
+  --chat-box-text-color: #b0b3b8;
+  --bg-friend-message: #3e4042;
+  --friend-message-text-color: #e4e6eb;
+  --bg-button: #3a3b3c;
 }
 
 * {
