@@ -1,0 +1,50 @@
+.align-left,
+.align-right {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.align-right {
+  justify-content: flex-end;
+}
+
+.message-container {
+  max-width: 60%;
+  padding: 7px 10px;
+  width: fit-content;
+  word-break: break-word;
+
+  &.friend {
+    border-radius: 20px;
+    background-color: var(--bg-friend-message);
+    margin-right: 10px;
+    color: var(--friend-message-text-color);
+  }
+
+  &.me {
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: var(--bg-me-message);
+    color: var(--me-message-color);
+  }
+}
+
+.left-avatar {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-right: 3px;
+}
+
+.btn-remove-message {
+  color: var(--chat-box-text-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary);
+  }
+}

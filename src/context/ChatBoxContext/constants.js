@@ -1,0 +1,11 @@
+export const ADD_EDITED_MESSAGE = "add_edited_message";
+export const REMOVE_EDITED_MESSAGE = "remove_edited_message";
+export const ADD_PLAYED_MESSAGE = "add_played_message";
+export const REMOVE_ALL_PLAYED_MESSAGES = "remove_all_played_messages";
+export const SET_MESSAGE_INDEX = "set_message_index";
+export const SET_FRIEND_AVATAR = "set_friend_avatar";
+export const SET_FRIEND_NAME = "set_friend_name";
+export const SET_EDIT_MODE = "set_edit_mode";
+export const SET_DRAFT_MESSAGE = "set_draft_message";
+export const SET_LAYOUT = "set_layout";
+export const SET_ONLINE = "set_online";

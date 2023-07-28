@@ -1,0 +1,27 @@
+.wrapper {
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: solid 1px transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.outline {
+  border-color: var(--primary);
+  color: var(--primary);
+  background-color: var(--element-color);
+
+  &:hover {
+    background-color: #fe2c550f;
+  }
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--primary-text);
+
+  &:hover {
+    background: var(--primary-hover);
+  }
+}

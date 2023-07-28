@@ -1,0 +1,109 @@
+.wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 500px;
+
+  .quick-action-panel {
+    margin-bottom: 10px;
+    background-color: var(--edit-panel-color);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+
+    .options,
+    .layouts {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+      div {
+        width: 45%;
+
+        label {
+          font-size: 20px;
+          margin-left: 5px;
+          color: var(--text-color);
+        }
+      }
+    }
+  }
+
+  .edit-panel {
+    background-color: var(--edit-panel-color);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+  }
+}
+
+.message-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.input-message {
+  font-size: 20px;
+  padding: 7px 20px;
+  border-radius: 20px;
+  width: -webkit-fill-available;
+  margin-right: 10px;
+  background-color: var(--bg-input-color);
+  color: var(--text-color);
+}
+
+.input-avatar {
+  border-radius: 25px;
+  width: -webkit-fill-available;
+  margin-bottom: 15px;
+  background-color: var(--bg-input-color);
+  display: flex;
+  align-items: center;
+  border: solid 0;
+  padding: 2px;
+
+  .btn-browse {
+    border-radius: 20px;
+    min-width: 120px;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: var(--bg-button);
+    color: var(--text-color);
+    cursor: pointer;
+    text-align: center;
+  }
+
+  span {
+    margin: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--text-color);
+  }
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.action-controller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 45%;
+}
+
+.btn-add {
+  color: var(--primary);
+  cursor: pointer;
+  height: 28px;
+}
+
+.btn-action {
+  width: 100%;
+}
